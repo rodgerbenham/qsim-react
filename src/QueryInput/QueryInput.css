@@ -1,0 +1,103 @@
+@media all and (max-width: 860px) {
+    .searchIcon {
+        font-size: 10pt !important;
+    }
+
+    .searchMetaIcon {
+        width: 15px !important;
+    }
+
+    .queryKey {
+        width: 15px !important;
+    }
+
+    .queryMeta {
+        width: 130px !important;
+    }
+}
+
+.queryBox {
+    display: inline-block;
+    overflow: hidden; 
+    width: 50%;
+    direction: rtl;
+    height: 30px;
+}
+
+.queryMeta {
+    float: left;
+    width: 185px;
+    top: 1px;
+    position: relative;
+}
+
+.queryBoxContainer {
+    max-width: 100%; 
+    position: relative;
+    top: 2px;
+}
+
+.textInnerBox {
+    white-space: nowrap; 
+    direction: ltr; 
+    display: inline-block;
+}
+
+.queryContainer {
+    padding: 6px;
+    border: 3px solid black;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 1.0;
+}
+
+.queryProgressBar {
+    width: 90px;
+}
+
+.queryKey {
+    text-align: right;
+    font-size: 10pt;
+    position: relative;
+    width: 30px;
+    display: inline-block;
+    color: #666;
+    margin-right: 15px;
+}
+
+.searchIcon {
+    text-align: center;
+    font-size: 15pt;
+    position: relative;
+    left: 1px;
+}
+
+.searchMetaIcon {
+    margin-right:5px;
+    margin-top:6px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.cursor {
+    animation:blinkingCursor 1.0s infinite;
+    font-size: 16pt;
+    margin-left: -2px;
+    margin-right: -2px;
+    font-weight: 200; 
+}
+
+@keyframes blinkingCursor{
+    0% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+   100% { opacity: 0; }
+}

@@ -1,0 +1,186 @@
+@media all and (max-width: 430px) {
+    .forwardBackSolidIcon {
+        font-size: 10pt !important;
+    }
+
+    .playbackIcon {
+        font-size: 10pt !important;
+    }
+
+    .playbackSolidIcon {
+        font-size: 10pt !important;
+    }
+
+    .topicProgressCol {
+        font-size: 8pt !important;
+    }
+
+    .topicProgressCol input[type="checkbox"] + label:before {
+        font: 10px/1em sans-serif !important;
+        height: 10px !important;
+        width: 10px !important;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .stickyBanner {
+        position: static !important;
+        z-index: 0;
+    }
+
+    .forwardBackSolidIcon {
+        margin-left:4px !important;
+        margin-right:4px !important;
+    }
+
+    .playbackIcon {
+        margin-left:4px !important;
+        margin-right:4px;
+    }
+
+    .playbackSolidIcon {
+        margin-left:4px !important;
+        margin-right:4px !important;
+    }
+
+    .topicProgressCol {
+        padding-top: 3px !important;
+        padding-right: 10pt !important;
+    }
+
+    
+}
+
+.controlPanel {
+    text-align: center;
+}
+
+a {
+    color: #0097AE !important;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+  }
+
+input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: .25em .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+input[type="checkbox"]:checked + label:before {
+  background: #0097AE;
+  color: #FFF;
+  content: "\2713";
+  text-align: center;
+}
+input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
+}
+
+input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+.stickyBanner {
+    background-color: #90A4AE !important;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.topicInfoContainer {
+    padding: 15px;
+    border: 3px solid black;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.topicTitleRow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topicControls {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 100%;
+}
+
+.finished {
+    background-color: #DDD;
+}
+
+.btn {
+    font-size: 10pt !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+#toggleBack {
+    margin-left: 10px !important;
+}
+
+.statsColumn {
+    text-align: center;
+}
+
+.topicTitle {
+    display: contents !important;
+}
+
+.topicProgressRow {
+    height:37px;
+    vertical-align: middle;    
+    padding-top: 8px;
+    text-align: center;
+}
+
+.topicProgressCol {
+    text-align:center;
+}
+
+.progressBar {
+    width: 100%;
+}
+
+.playbackIcon {
+    display: inline-block;
+    text-align: center;
+    font-size: 20pt;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.playbackSolidIcon {
+    display: inline-block;
+    text-align: center;
+    font-size: 18pt;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.forwardBackSolidIcon {
+    display: inline-block;
+    text-align: center;
+    font-size: 12pt;
+    margin-left:10px;
+    margin-right:10px;
+}
+
